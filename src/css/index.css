@@ -1,0 +1,69 @@
+/* select all element to start clean */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box; /* the width and size include padding (not the content  only) */
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 62.5%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header {
+  padding: 0 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* slider navigation color  */
+.swiper-button-next,
+.swiper-button-prev {
+  color: grey;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 640px) {
+  body {
+    /* 40% of 16px (default browser font size) */
+    font-size: 40%;
+  }
+
+  .header {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .card-img {
+    height: 10rem;
+  }
+
+  .card-container {
+    width: 20rem;
+  }
+}

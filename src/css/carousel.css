@@ -1,0 +1,22 @@
+.carousel-container {
+  max-height: 120rem;
+  width: 100vw;
+  margin: auto auto;
+  border-top: 2px;
+  padding: 2rem;
+}
+
+.swiper {
+  height: 37rem;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
