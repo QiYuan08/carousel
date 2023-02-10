@@ -18,7 +18,6 @@ const Carousel = ({ datas }) => {
         pagination={true}
         navigation={true}
         spaceBetween={4}
-        slidesPerView={1}
         breakpoints={{
           // when window width is >= 1200px
           900: {
@@ -27,7 +26,7 @@ const Carousel = ({ datas }) => {
           },
           1200: {
             slidesPerView: 3,
-            spaceBetween: 2,
+            spaceBetween: 20,
           },
         }}
       >
