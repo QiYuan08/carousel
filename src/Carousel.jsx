@@ -15,7 +15,8 @@ const Carousel = ({ datas }) => {
         modules={[Pagination, Navigation]}
         centeredSlides={false}
         centerInsufficientSlides={true}
-        pagination={true}
+        centeredSlidesBounds={true}
+        pagination={false}
         navigation={true}
         spaceBetween={4}
         breakpoints={{
@@ -26,6 +27,14 @@ const Carousel = ({ datas }) => {
           },
           1200: {
             slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          1800: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+          2000: {
+            slidesPerView: 5,
             spaceBetween: 20,
           },
         }}
