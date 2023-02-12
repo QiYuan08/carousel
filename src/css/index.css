@@ -50,24 +50,12 @@ code {
 /* MEDIA QUERY */
 @media only screen and (max-width: 640px) {
   body {
-    /* 40% of 16px (default browser font size) */
+    /* 40% of 16px (default browser font size) 6.4px */
     font-size: 40%;
   }
 
   .header {
     font-size: 1.3rem;
     text-align: center;
-  }
-
-  .card-img {
-    height: 10rem;
-  }
-
-  .card-container {
-    width: 20rem;
-  }
-
-  .card-header {
-    font-size: 1.2rem;
   }
 }

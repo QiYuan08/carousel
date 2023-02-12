@@ -8,7 +8,13 @@
 
 .swiper {
   height: 37rem;
-  padding: 0 5rem 0 5rem;
+  padding: 0 3rem 0 3rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .swiper {
+    padding: 0 5rem 0 5rem;
+  }
 }
 
 .swiper-slide {
